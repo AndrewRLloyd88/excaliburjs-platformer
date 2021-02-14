@@ -8,6 +8,12 @@ let game = new ex.Engine({
 
 // create an asset loader
 let loader = new ex.Loader();
+loader.playButtonText = 'Start the best game ever';
+// loader.startButtonFactory = () => {
+//   let myButton = document.createElement('button');
+//   myButton.textContent = 'The best button';
+//   return myButton;
+// };
 let resources = {
   /* include resources here */
   //txPlayer: new ex.Texture("assets/tex/player.png")
